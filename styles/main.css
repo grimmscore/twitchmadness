@@ -1,0 +1,218 @@
+* {
+font-family: 'Roboto', sans-serif;
+}
+a {
+	color: #ffd045;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color:#fff;
+}
+.wrapper {
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+	flex-flow: row wrap;
+}
+
+::selection {
+	color:#fff;
+	background: #a438ff; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+	color:#fff;
+	background: #a438ff; /* Gecko Browsers */
+}
+.container{
+transition: left 0.25s linear;
+}
+body {
+	background:#ffffff;
+}
+.events_upnext{
+color:#fff;
+padding-left:10px;
+padding-top:10px;
+text-transform:uppercase;
+font-weight:bold;
+}
+.subtitle
+{
+	color:#fff;
+}
+.carder
+{
+}
+.tmwrestlers-champions--info {
+    background: linear-gradient(to bottom,transparent 0%,rgba(0,0,0,0.9) 100%);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem 1rem 1.5rem;
+    color: #fff;
+    font-weight: bold;
+position:absolute;
+}
+.tmwrestlers-champions--name {
+    font-size: 24px;
+    line-height: 2;
+}
+.tmwrestlers-champions--championship {
+    font-size:14px;
+    line-height: 0;
+}
+.tmwrestlers-container {
+    height: 400px;
+    width: 100%;
+  position: relative;
+  overflow: hidden;
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 95%, rgba(2,0,36,0) 95%);
+
+}
+.tmwrestlers-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  transition: transform 0.3s ease;
+  transform: scale(1);
+  transform-origin: bottom center;
+}
+
+.tmwrestlers-image:hover {
+  transform: scale(1.01);
+}
+	
+.tmwrestlers-bottom {
+display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  height: auto;
+}
+
+.tmw{
+    align-items: stretch;
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-height: -webkit-min-content;
+    min-height: -moz-min-content;
+    min-height: min-content;
+}
+
+.tmw.is-wrestler {
+    padding: 0.5rem;
+}
+
+html.has-navbar-fixed-top, body.has-navbar-fixed-top {
+    padding-top: 4.25rem;
+}
+
+.navbar.is-dark {
+    background-color: #222222;
+    color: #aaaaaa;
+	padding:10px;
+}
+.navbar.is-dark .navbar-start > .navbar-item, .navbar.is-dark .navbar-start .navbar-link, .navbar.is-dark .navbar-end > .navbar-item, .navbar.is-dark .navbar-end .navbar-link {
+    color: #aaaaaa;
+font-family: 'Nunito', sans-serif;
+
+    font-size: 16px;
+  transition: background-color 2s ease-out 100ms;
+	
+}
+.navbar-link:hover {
+	  transition: background-color 2s ease-out 100ms;
+}
+.events_upcoming{
+color:#fff;
+padding-left:10px;
+text-transform:uppercase;
+font-weight:bold;
+}
+.event_head {
+    position: relative;
+    height: auto;
+    width: 100%;
+	min-width:238px;
+}
+.events {
+    display: flex;
+    flex-wrap: wrap;
+}
+.event_headliner {
+	    flex-grow: 1!important;
+    flex: 0 50%;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+	padding:10px;
+}
+.event_logo img {
+    display: block;
+    line-height: 0;
+    height: auto;
+    width: 100%;
+    border-radius: 3px 3px 0px 0px;
+	border:0px solid #00d93f;
+	border-bottom: none;
+}
+.event_upc_title {
+color:#fff;
+font-size: 13px;
+padding:10px;
+font-weight:bold;
+text-align:center;
+background-color: #0c0c0d;
+
+}
+.event_xbox {
+color:#fff;
+font-size: 13px;
+padding:10px;
+font-weight:bold;
+text-align:center;
+background-color: #107C10;
+
+}
+
+.event_title {
+color:#fff;
+font-size: 24px;
+font-weight:bold;
+text-align:center;
+padding:10px;
+background-color: #00521c;
+}
+.col-sm {
+	text-align:center;
+	background:#007b2a;
+	padding:12px;
+}
+
+.event_date {
+color:#fff;
+font-size:12px;
+font-weight:bold;
+display:inline-block;
+}
+.countdown {
+color:#fff;
+font-weight:bold;
+font-size:25px;	
+display:inline-block;
+margin-bottom:5px;
+}
+
+thead {
+    border-radius: 3px;
+}	
+.headwrap {
+	background: #1f1f1d;
+	display: flex;
+	border-bottom: 1px solid #404040;
+
+}
