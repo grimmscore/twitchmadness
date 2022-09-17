@@ -31,39 +31,7 @@
 </style>
   </head>
   <body">
-<nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="./index.html">
-      <img src="./images/logo.png" width="43" height="57">
-    </a>
-
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item">
-        TMW LIVE
-      </a>
-
-      <a class="navbar-item">
-        ШОУ
-      </a>
-
-        <a class="navbar-item">
-          УЧАСТНИКИ
-        </a>
-
-      <a class="navbar-item">
-        VODS
-      </a>
-    </div>
-  </div>
-</nav>
+ <?php include "./nav.html" ?>
 
 <div class="container" style="max-width:1600px;">
 <div class="tile is-ancestor">
@@ -1268,13 +1236,5 @@
 </div>
   </body>
 
-
-<footer class="footer" style="margin-top:50px;">
-  <div class="content has-text-centered">
-    <p>
-      <strong>Twitch Madness</strong> by <b>Grimmscore</b></a>. The website content
-      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-    </p>
-  </div>
-</footer>
+<?php include "./footer.html" ?>
 </html>
