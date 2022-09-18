@@ -1951,7 +1951,7 @@ fieldset[disabled] .button {
 
 @media screen and (max-width: 1407px) {
   .container.is-fullhd:not(.is-max-desktop):not(.is-max-widescreen) {
-    max-width: 1344px;
+    max-width: 1600px;
   }
 }
 

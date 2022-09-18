@@ -227,3 +227,17 @@ thead {
 
 }
 
+.js-scroll {
+  transition: background-color 500ms;
+}
+ 
+.js-scroll.scrolled {
+  background-color: aquamarine;
+}
+table {
+	border:1px solid #000;
+}
+td, col, th {
+		border:1px solid #000;
+	padding:10px;
+}
